@@ -11,3 +11,13 @@ writeToFile("hello.txt", function(){
   return "Hello, World!";
 });
 ```
+
+
+```php
+<?php
+
+$name = "Faris";
+writeToFile("hello.txt", function($name){
+  return "Hello, World! {$name}";
+}, [ "name" => $name ]);
+```
