@@ -12,7 +12,6 @@ writeToFile("hello.txt", function(){
 });
 ```
 
-
 ```php
 <?php
 
@@ -21,3 +20,7 @@ writeToFile("hello.txt", function($name){
   return "Hello, World! {$name}";
 }, [ "name" => $name ]);
 ```
+
+## License
+
+MIT
