@@ -1,6 +1,6 @@
 <?php
 
-function writeToFile($fileName, $data, $args)
+function writeToFile($fileName, $data, $args = [])
 {
     $data = call_user_func_array($data, $args);
     $myfile = fopen($fileName, "w+");
